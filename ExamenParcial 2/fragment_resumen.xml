@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:id="@+id/tvIngresos" android:text="Ingresos: 0" />
+    <TextView android:id="@+id/tvEgresos" android:text="Egresos: 0" />
+    <TextView android:id="@+id/tvSaldo" android:text="Saldo: 0" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvTransacciones" />
+</LinearLayout>
